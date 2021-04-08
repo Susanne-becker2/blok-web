@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lowlands</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <header>
+        <!------------navigatie------------>
+        <nav>
+            <ul>
+                <li><a>Blokkenschema</a></li>
+                <li><a href="index.html" class="current">Nieuws</a></li>
+                <li><a>FAQ</a></li>
+                <li><a>Programma</a></li>
+                <li id='homebutton'><a><img id="logo" src="./images/logo.png" alt="logo"></a></li>
+                <li><a>Tickets</a></li>
+                <li><a>Plattegrond</a></li>
+                <li><a href="reisinformatie.html">Reisinformatie</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!------------filteren en sorteren------------>
+        <section id="filteren">
+            <button id="filterbutton">+ Filteren</button>
+            <button>+ Sorteren</button>
+
+            <!--https://www.w3schools.com/css/tryit.asp?filename=trycss_form_search_anim-->
+            <input type="search" id="myInput" onkeyup="myFunction()" placeholder="Zoeken...">
+            <button id="zoekknop" type="submit">Zoek</button>
+        </section>
+
+        <!--https://www.w3schools.com/howto/howto_css_custom_checkbox.asp-->
+        <article id="filteropdrachten">
+            <h1 id="filter">Filteren:</h1>
+            <label class="filteropdracht">Alles
+                <input type="checkbox">
+                <span></span>
+            </label>
+            <label class="filteropdracht">Nieuw
+                <input type="checkbox">
+                <span></span>
+            </label>
+
+            <label class="filteropdracht">Oud
+                <input type="checkbox">
+                <span></span>
+            </label>
+        </article>
+
+        <!------------Alle nieuwsberichten------------>
+        <section>
+            <a href="detail.html">
+                <figure><img src="images/nieuws1.png" alt="Nieuwsbericht 1">
+                    <figcaption>
+                        <p>21 oktober 2019</p>
+                        <h2>Studio Mack winnaar kick that ass award 2019</h2>
+                    </figcaption>
+                </figure>
+            </a>
+
+            <figure><img src="images/nieuws2.png" alt="Nieuwsbericht 2">
+                <figcaption>
+                    <p>15 oktober 2019</p>
+                    <h2>Lowlands zoekt staciair(e)!</h2>
+                </figcaption>
+            </figure>
+
+            <figure><img src="images/nieuws3.png" alt="Nieuwsbericht 3">
+                <figcaption>
+                    <p>29 augustus 2019</p>
+                    <h2>Franz ferdinand op LL19</h2>
+                </figcaption>
+            </figure>
+
+            <figure><img src="images/nieuws4.png" alt="Nieuwsbericht 4">
+                <figcaption>
+                    <p>27 augustus 2019</p>
+                    <h2>Bekijk de video's van LTV!</h2>
+                </figcaption>
+            </figure>
+
+            <figure><img src="images/nieuws5.png" alt="Nieuwsbericht 5">
+                <figcaption>
+                    <p>27 augustus 2019</p>
+                    <h2>Terugkijkplezier</h2>
+                </figcaption>
+            </figure>
+
+            <figure><img src="images/nieuws6.png" alt="Nieuwsbericht 6">
+                <figcaption>
+                    <p>27 augustus 2019</p>
+                    <h2>My baby op LL19</h2>
+                </figcaption>
+            </figure>
+
+            <figure><img src="images/nieuws7.png" alt="Nieuwsbericht 7">
+                <figcaption>
+                    <p>26 augustus 2019</p>
+                    <h2>Llowcast live at lowlands 2019</h2>
+                </figcaption>
+            </figure>
+
+            <figure><img src="images/nieuws8.png" alt="Nieuwsbericht 8">
+                <figcaption>
+                    <p>26 augustus 2019</p>
+                    <h2>Jungle by night op LL19</h2>
+                </figcaption>
+            </figure>
+
+            <figure><img src="images/nieuws9.png" alt="Nieuwsbericht 9">
+                <figcaption>
+                    <p>26 augustus 2019</p>
+                    <h2>Daily paradise online</h2>
+                </figcaption>
+            </figure>
+        </section>
+        <!------------button om meer nieuws te laden------------>
+        <button class="nieuws-button">Meer nieuws</button>
+
+        <script src="javascript.js"></script>
+    </main>
+    <footer>
+        <!------------Footer------------>
+        <hr>
+        <h3>Volg ons:</h3>
+        <img src="images/twitter.png" alt="twitter" class="socialmedia">
+        <img src="images/facebook.png" alt="facebook" class="socialmedia">
+        <img src="images/instagram.png" alt="instagram" class="socialmedia">
+        <img src="images/spotify.png" alt="spotify" class="socialmedia">
+    </footer>
+</body>
+
+</html>

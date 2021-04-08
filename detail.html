@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lowlands</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <header>
+        <!------------Navigatie------------>
+        <nav>
+            <ul>
+                <li><a>Blokkenschema</a></li>
+                <li><a href="index.html">Nieuws</a></li>
+                <li><a>FAQ</a></li>
+                <li><a>Programma</a></li>
+                <li id='homebutton'><a><img id="logo" src="./images/logo.png" alt="logo"></a></li>
+                <li><a>Tickets</a></li>
+                <li><a>Plattegrond</a></li>
+                <li><a href="reisinformatie.html">Reisinformatie</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!------------Nieuws informatie------------>
+        <article>
+            <h1>STUDIO MACK WINNAAR KICK THAT ASS-AWARD 2019</h1>
+            <img id="afbeelding-detail" src="images/nieuws1.png" alt="nieuws afbeelding">
+            <p>Studio Mack is de winnaar van de Kick That Ass-Award 2019. De award is een initiatief van ontwerper Maarten Baas en wordt ondersteund door Lowlands. De Kick That Ass-Award is een jaarlijkse prijs voor afstudeerwerk van studenten aan Design Academy Eindhoven, die in het het leven is geroepen omdat studenten in hun examenjaar aan een veelheid van eisen en verwachtingen moeten voldoen. De award is hierop een uitzondering, want hiervoor gelden simpelweg geen criteria: Er hoeft geen diepgravend onderzoek aan ten grondslag te liggen en geen oplossing voor een probleem gevonden te worden. Daarnaast hoeft het werk geen betere wereld te beloven en geen revolutionaire materialen te bevatten. Sterker nog: het werk hoeft niet eens een functie te hebben.</p>
+            <p>Studio Mack, bestaande uit het duo Puck van Iersel en Maarten de Bruijne, is met het werk 'Sea you there' de winnaar van dit jaar. Het winnende ontwerp is geen ontwerp, maar een film. Het pretendeert niks anders dan een uiterst humoristische en absurdistische film te zijn, als aanvulling op hun veelbelovende oeuvre dat op studiomack.nl te zien is. 'Sea you there' is een klein verhaal over twee bevlogen wetenschappers die een wetenschappelijk raadsel oplossen. De jury was unaniem lovend over de vervreemdende en authentieke film waarin de kijker gedurende 8 minuten wordt meegenomen in het mysterie. </p>
+        </article>
+        <!-----------Meer nieuwsberichten------------>
+        <section class="detail">
+            <figure><img src="images/nieuws2.png" alt="Nieuwsbericht 2">
+                <figcaption>
+                    <p>15 oktober 2019</p>
+                    <h2>Lowlands zoekt staciair(e)!</h2>
+                </figcaption>
+            </figure>
+
+            <figure><img src="images/nieuws3.png" alt="Nieuwsbericht 3">
+                <figcaption>
+                    <p>29 augustus 2019</p>
+                    <h2>Franz ferdinand op LL19</h2>
+                </figcaption>
+            </figure>
+
+            <figure><img src="images/nieuws4.png" alt="Nieuwsbericht 4">
+                <figcaption>
+                    <p>27 augustus 2019</p>
+                    <h2>Bekijk de video's van LTV!</h2>
+                </figcaption>
+            </figure>
+
+            <figure><img src="images/nieuws5.png" alt="Nieuwsbericht 5">
+                <figcaption>
+                    <p>27 augustus 2019</p>
+                    <h2>Terugkijkplezier</h2>
+                </figcaption>
+            </figure>
+        </section>
+        <!------------Contact formulier------------>
+        <article>
+            <h3 class='normaal'>Contact formulier</h3>
+            <p>Heeft u opmerkingen of vragen over dit nieuwsbericht? Aarzel den niet om contact met ons op te nemen!</p>
+            <form>
+                <label for="fname">Voornaam:</label>
+                <input type="text" id="fname" name="firstname" placeholder="Voornaam.." required>
+
+                <label for="lname">Achternaam:</label>
+                <input type="text" id="lname" name="lastname" placeholder="Achternaam.." required>
+
+                <label for="subject">Onderwerp:</label>
+                <input type="text" id="subject" name="subject" placeholder="onderwerp.." required>
+
+                <label for="type">Soort bericht</label>
+                <select id="type" name="soort bericht">
+                    <option value="vraag">Vraag</option>
+                    <option value="opmerking">Opmerking</option>
+                    <option value="anders">Anders</option>
+                </select>
+
+                <label for="message">Bericht:</label>
+                <textarea id="message" name="message" placeholder="Bericht.." style="height:200px" required></textarea>
+
+                <input type="submit" value="Submit">
+                <!--https://www.w3schools.com/howto/howto_css_contact_form.asp-->
+            </form>
+        </article>
+    </main>
+    <footer>
+        <!------------Footer------------>
+        <hr>
+        <h4>Volg ons:</h4>
+        <img src="images/twitter.png" alt="twitter" class="socialmedia">
+        <img src="images/facebook.png" alt="facebook" class="socialmedia">
+        <img src="images/instagram.png" alt="instagram" class="socialmedia">
+        <img src="images/spotify.png" alt="spotify" class="socialmedia">
+    </footer>
+</body>
+
+</html>
+
